@@ -5,5 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.CampStudy" parent="Base.Theme.CampStudy" />
+    <style name="Theme.CampStudy.Splash" parent="Base.Theme.CampStudy">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
 </resources>
